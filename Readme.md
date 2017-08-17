@@ -1,5 +1,5 @@
 # NoPHP
-This program provides the means to generate and maintain HTML 5 websites and structures with a MariaDB (Database) and Java 8. See the LICENSE file for information about my liabilities toward any usage, distribution as the lead programmer of this project.
+This program provides the means to generate and maintain HTML 5 websites and structures with a MariaDB (Database) and Java 8. See the `LICENSE` file for information about my liabilities toward any usage, distribution as the lead programmer of this project.
 ## Usage
 This program saves its configuration in `.NoPHPSettings.xml` under the users home directory. The HTML files are stored in `/var/www/`, where they will be loaded by whatever webserver is used.
 ### Terminal
