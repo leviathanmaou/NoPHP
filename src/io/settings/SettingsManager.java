@@ -63,7 +63,7 @@ public class SettingsManager {
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(doc);
-			StreamResult result = new StreamResult(new File(System.getProperty("user.home"), ".TelegramSettings.xml"));
+			StreamResult result = new StreamResult(new File(System.getProperty("user.home"), ".NoPHPSettings.xml"));
 
 			transformer.transform(source, result);
 
