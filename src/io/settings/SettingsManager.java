@@ -20,11 +20,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class SettingsManager {
-	// DataArray: id, username, passwordhash, email, ip,
 	List<String> xmlData = new ArrayList<>();
 
 	public SettingsManager() {
-		// System.out.println("Settingsmanager");
 	}
 
 	public void writeXML(List<String> fields, List<String> data) {
@@ -120,7 +118,7 @@ public class SettingsManager {
 	public List<String> readData() {
 		List<String> data = new ArrayList<>();
 		try {
-			File fXmlFile = new File(System.getProperty("user.home"), ".TelegramSettings.xml");
+			File fXmlFile = new File(System.getProperty("user.home"), ".NoPHPSettings.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
